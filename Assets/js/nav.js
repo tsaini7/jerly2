@@ -28,3 +28,25 @@ window.onscroll = function() {
     }
   }
   
+
+  const sliderContent = document.querySelector('.slider-content');
+  const slides = document.querySelectorAll('.slide');
+  const slideWidth = slides[0].clientWidth;
+  let currentIndex = 0;
+
+  function nextSlide() {
+    if (currentIndex < slides.length - 1) {
+      currentIndex++;
+    } else {
+      currentIndex = 0;
+    }
+    updateSlider();
+  }
+
+  function updateSlider() {
+    const newPosition = -currentIndex * slideWidth;
+    sliderContent.style.transform = `translateX(${newPosition}px)`;
+  }
+
+  // Configurar el intervalo para cambiar automáticamente los slides
+  setInterval(nextSlide, 3500); // Cambia de slide cada 3000 milisegundos (3 segundos)
