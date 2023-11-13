@@ -1,0 +1,46 @@
+#nosotros {
+    background-color: var(--color-blanco);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.nosotros-gral {
+    display: flex;
+    height: 90%;
+    width: 90%;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.nosotros-izquierda {
+    width: 50%;
+}
+
+.nosotros-izquierda img {
+    margin-top: 1rem;
+    height: 90%;
+    border-radius: 8px;
+}
+
+.nosotros-derecha {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-nosotros {
+    width: 80%;
+    line-height: 1.5;
+    color: var(--color-negro);
+    font-size: 1.2rem;
+    text-align: le;
+}
+
+.nosotros-derecha span {
+    font-size: 1.5rem;
+    font-weight: bold;
+}

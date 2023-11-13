@@ -1,0 +1,91 @@
+@import url("../fonts/bold/style.css");
+@import url("../fonts/prolight/style.css");
+
+:root {
+    --color-azul-oscuro: #003057 ;
+    --color-azul-claro: #0061A0 ;
+    --color-celeste: #0094D5 ;
+    --color-negro: #373A36;
+    --color-cool-gray: #D0D0CE;
+    --fuente: 'Metronic Pro';
+    --color-blanco: #f5f5f5;
+
+}
+
+*, *::after, *::before {
+    padding: 0;
+    margin: 0; 
+    /* box-sizing: border-box; */
+
+}
+
+html {
+    font-family: var(--fuente), sans-serif;
+}
+
+.btn-principal {
+    width: 9rem;
+    padding: 0.5rem ;
+    border: none;
+    background-color: var(--color-azul-oscuro);
+    color: #fff;
+    text-transform: uppercase;
+    font-family: var(--fuente), sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-principal:hover {
+    background-color: #fff;
+    border: solid 1px var(--color-azul-oscuro);
+    color: var(--color-azul-claro);
+    transition: all .2s ease-in-out;
+}
+
+.btn-secundario {
+    background-color: #fff;
+    width: 9rem;
+    padding: 0.5rem ;
+    border: solid 1px var(--color-azul-oscuro);
+    color: var(--color-azul-claro)
+    text-transform: uppercase;
+font-family: var(--fuente), sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-secundario:hover {
+    background-color: var(--color-azul-oscuro);
+    color: white;
+    transition: all .2s ease-in-out;
+    border: solid 1px #fff;
+
+
+}
+
+section {
+    display: flex;
+    height: 100vh;
+
+}
+
+.conteiner {
+    width: 95vw;
+    height: 95vh;
+
+}
+
+.claro-nosotros {
+    background-color: var(--color-blanco);
+}
+
+.titulo-secundario {
+    margin-top: 1rem;
+    color: #fff;
+    font-size: 3rem;
+    text-align: left;
+
+}
+.tituloOscuro {
+    color: var(--color-negro)
+}
