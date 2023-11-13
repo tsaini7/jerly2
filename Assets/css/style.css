@@ -84,8 +84,13 @@ section {
     color: #fff;
     font-size: 3rem;
     text-align: left;
+    margin-bottom: 2rem;
 
 }
 .tituloOscuro {
     color: var(--color-negro)
+}
+
+.tituloCeleste {
+    color: var(--color-celeste);
 }
