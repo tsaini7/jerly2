@@ -1,0 +1,57 @@
+#nosotros2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-blanco);
+
+}
+
+.nosotros2 {
+    background-color: var(--color-azul-claro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tarjetas {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    
+}
+
+.tarjeta {
+    width: 25%;
+    min-height: 370px;
+    align-self: center;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid var(--color-cool-gray);
+    border-radius: 25px;
+    padding: 1.5rem;
+    color: var(--color-cool-gray);
+}
+
+.tarjeta-titulo {
+    margin-top: 1.2rem;
+    font-size: 2rem;
+  
+}
+
+.tarjeta-parrafo {
+    margin-top: 1.2rem;
+    font-size: 1rem;
+    line-height: 1.5;
+
+}
+
+
+.tarjeta:hover {
+    background-color: var(--color-cool-gray);
+    color: var(--color-azul-oscuro);
+    border: 1px solid var(--color-azul-oscuro);
+    transition: all 0.5s;
+    font-weight: bold;
+}
+

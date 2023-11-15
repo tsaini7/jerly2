@@ -21,6 +21,7 @@
 
 html {
     font-family: var(--fuente), sans-serif;
+    scroll-snap-type: mandatory y;
 }
 
 .btn-principal {
@@ -66,13 +67,18 @@ font-family: var(--fuente), sans-serif;
 section {
     display: flex;
     height: 100vh;
+    scroll-snap-align: start;
 
 }
 
 .conteiner {
     width: 95vw;
     height: 95vh;
+}
 
+.conteinerChico {
+    width: 95vw;
+    height: 87vh;
 }
 
 .claro-nosotros {
